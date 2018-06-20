@@ -1,0 +1,11 @@
+G:\Web\only\only\only.Web\only.Identity.Client\bin\Debug\netcoreapp2.1\only.Identity.Client.deps.json
+G:\Web\only\only\only.Web\only.Identity.Client\bin\Debug\netcoreapp2.1\only.Identity.Client.runtimeconfig.json
+G:\Web\only\only\only.Web\only.Identity.Client\bin\Debug\netcoreapp2.1\only.Identity.Client.runtimeconfig.dev.json
+G:\Web\only\only\only.Web\only.Identity.Client\bin\Debug\netcoreapp2.1\only.Identity.Client.dll
+G:\Web\only\only\only.Web\only.Identity.Client\obj\Debug\netcoreapp2.1\only.Identity.Client.csproj.CoreCompileInputs.cache
+G:\Web\only\only\only.Web\only.Identity.Client\obj\Debug\netcoreapp2.1\only.Identity.Client.AssemblyInfoInputs.cache
+G:\Web\only\only\only.Web\only.Identity.Client\obj\Debug\netcoreapp2.1\only.Identity.Client.AssemblyInfo.cs
+G:\Web\only\only\only.Web\only.Identity.Client\bin\Debug\netcoreapp2.1\only.Identity.Client.pdb
+G:\Web\only\only\only.Web\only.Identity.Client\obj\Debug\netcoreapp2.1\only.Identity.Client.csprojAssemblyReference.cache
+G:\Web\only\only\only.Web\only.Identity.Client\obj\Debug\netcoreapp2.1\only.Identity.Client.dll
+G:\Web\only\only\only.Web\only.Identity.Client\obj\Debug\netcoreapp2.1\only.Identity.Client.pdb
