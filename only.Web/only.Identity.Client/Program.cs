@@ -18,9 +18,9 @@ namespace only.Identity.Client
             // request token
             //var tokenClient = new TokenClient(disco.TokenEndpoint, "client", "secret");
             //var tokenResponse = await tokenClient.RequestClientCredentialsAsync("api1");alice password
-            var tokenClient = new TokenClient(disco.TokenEndpoint, "ro.client", "secret");
+            var tokenClient = new TokenClient(disco.TokenEndpoint, "mvc", "secret");
             
-            var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync("416269473@qq.com", "Zss521@", "App.Api");
+            var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync("416269473@qq.com", "Zss521@", "api1");
             //var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync("alice", "password", "App.Api");
             if (tokenResponse.IsError)
             {

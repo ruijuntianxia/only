@@ -79,7 +79,11 @@ namespace only.IdentityServer.App
             app.UseIdentityServer();
             app.UseHttpsRedirection();
             app.UseMvcWithDefaultRoute();
-            app.UseMvc();
+            app.UseMvc(routes => {
+                routes.MapRoute(
+                        name: "default",
+                        template: "{controller=Identity}/{action=Register}");
+            });
         }
     }
 }
