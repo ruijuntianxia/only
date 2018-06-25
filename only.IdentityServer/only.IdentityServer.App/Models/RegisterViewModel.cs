@@ -12,6 +12,13 @@ namespace only.IdentityServer.App.Models
         [Display(Name = "用户名")]
         public string UserName { get; set; }
 
+        [Display(Name ="姓")]
+        public string FamilyName { get; set; }
+
+        [Display(Name = "名")]
+        public string FirstName { get; set; }
+
+
         [Required]
         [Display(Name = "邮箱")]
         [DataType(DataType.EmailAddress)]

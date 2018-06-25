@@ -1,0 +1,29 @@
+﻿@model ApiResourceViewModel
+<div class="row">
+    <div class="col-md-4">
+        <form asp-route-returnUrl="@ViewData["ReturnUrl"]" method="post">
+            <h4>注册新服务</h4>
+            <h4 style="color:red;">@ViewData["Error"]</h4>
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DisplayName"></label>
+                <input asp-for="DisplayName" class="form-control" />
+                <span asp-validation-for="DisplayName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ClaimTypes"></label>
+                <input asp-for="ClaimTypes" class="form-control" />
+                <span asp-validation-for="ClaimTypes" class="text-danger"></span>
+            </div>
+            
+
+            <button type="submit" class="btn btn-default">注册</button>
+        </form>
+    </div>
+</div>

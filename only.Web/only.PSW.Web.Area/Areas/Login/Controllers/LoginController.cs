@@ -1,6 +1,7 @@
 ﻿using IdentityModel;
 using IdentityModel.Client;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,7 @@ using Newtonsoft.Json.Linq;
 using only.PSW.Web.Area.Areas.Identity.Data;
 using only.PSW.Web.Area.Areas.Identity.Models;
 using only.PSW.Web.Area.Areas.Login.Models;
+using only.PSW.Web.Area.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,14 +24,10 @@ namespace only.PSW.Web.Area.Areas.Login.Controllers
     {
 
         private readonly ApplicationDbContext _context;
-        private readonly UserManager<ApplicationUser> _userManager;
-        private readonly SignInManager<ApplicationUser> _signInManager;
-        public LoginController(ApplicationDbContext context,
-            UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+        public LoginController(ApplicationDbContext context)
         {
             _context = context;
-            _userManager = userManager;
-            _signInManager = signInManager;
+
         }
         public IActionResult Login()
         {
@@ -44,7 +42,7 @@ namespace only.PSW.Web.Area.Areas.Login.Controllers
             {
 
                 var disco = await DiscoveryClient.GetAsync("http://localhost:5000");
-                var tokenClient = new TokenClient(disco.TokenEndpoint, "or.client", "secret");
+                var tokenClient = new TokenClient(disco.TokenEndpoint, "ro.client", "secret");
                 //var tokenResponse = await tokenClient.RequestClientCredentialsAsync("App.Api");
                 var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync(loginUser.userName, loginUser.passWord, "App.Api");
 
@@ -56,8 +54,20 @@ namespace only.PSW.Web.Area.Areas.Login.Controllers
                 }
                 var client = new HttpClient();
                 client.SetBearerToken(tokenResponse.AccessToken);
-                //var content = await client.GetStringAsync("http://localhost:5001/identity");
+                var sf = client.BaseAddress;
 
+                //var content = await client.GetStringAsync("http://localhost:5001/identity");
+                var claims = new List<Claim>
+                {
+                    new Claim("UserName",loginUser.userName),
+                    new Claim("Api","App.Api")
+                };
+
+
+
+                var claimsIdentity = new ClaimsIdentity(
+                    claims, CustomerAuthorizeAttribute.CustomerAuthenticationScheme);
+                await HttpContext.SignInAsync(CustomerAuthorizeAttribute.CustomerAuthenticationScheme,new ClaimsPrincipal(claimsIdentity));
                 //ViewBag.Json = JArray.Parse(content).ToString();
                 ViewData["ReturnUrl"] = returnUrl;
                 return  RedirectToAction("Index", "Home", new { area = "Admin" });
