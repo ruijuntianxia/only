@@ -5,7 +5,6 @@ G:\Web\only\only\only.Web\only.Identity.Web.Login\bin\Debug\netcoreapp2.1\only.I
 G:\Web\only\only\only.Web\only.Identity.Web.Login\bin\Debug\netcoreapp2.1\only.Identity.Web.Login.pdb
 G:\Web\only\only\only.Web\only.Identity.Web.Login\bin\Debug\netcoreapp2.1\only.Identity.Web.Login.Views.dll
 G:\Web\only\only\only.Web\only.Identity.Web.Login\bin\Debug\netcoreapp2.1\only.Identity.Web.Login.Views.pdb
-G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.csprojAssemblyReference.cache
 G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.csproj.CoreCompileInputs.cache
 G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.RazorAssemblyInfo.cache
 G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.RazorAssemblyInfo.cs

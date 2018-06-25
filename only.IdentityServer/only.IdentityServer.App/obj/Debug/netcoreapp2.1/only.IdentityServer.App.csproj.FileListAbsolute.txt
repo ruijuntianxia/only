@@ -26,7 +26,6 @@ G:\Web\only\only\only.IdentityServer\only.IdentityServer.App\obj\Debug\netcoreap
 G:\Web\only\only\only.IdentityServer\only.IdentityServer.App\bin\Debug\netcoreapp2.1\only.IdentityServer.App.pdb
 G:\Web\only\only\only.IdentityServer\only.IdentityServer.App\bin\Debug\netcoreapp2.1\only.IdentityServer.App.Views.pdb
 G:\Web\only\only\only.IdentityServer\only.IdentityServer.App\obj\Debug\netcoreapp2.1\only.IdentityServer.App.csproj.CopyComplete
-G:\Web\only\only\only.IdentityServer\only.IdentityServer.App\obj\Debug\netcoreapp2.1\only.IdentityServer.App.csprojAssemblyReference.cache
 G:\Web\only\only\only.IdentityServer\only.IdentityServer.App\obj\Debug\netcoreapp2.1\Razor\Views\Account\LoggedOut.g.cshtml.cs
 G:\Web\only\only\only.IdentityServer\only.IdentityServer.App\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
 G:\Web\only\only\only.IdentityServer\only.IdentityServer.App\obj\Debug\netcoreapp2.1\Razor\Views\Account\Logout.g.cshtml.cs

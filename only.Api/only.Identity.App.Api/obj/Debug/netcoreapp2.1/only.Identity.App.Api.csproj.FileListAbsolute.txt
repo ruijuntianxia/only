@@ -9,6 +9,5 @@ G:\Web\only\only\only.Api\only.Identity.App.Api\obj\Debug\netcoreapp2.1\only.Ide
 G:\Web\only\only\only.Api\only.Identity.App.Api\obj\Debug\netcoreapp2.1\only.Identity.App.Api.AssemblyInfo.cs
 G:\Web\only\only\only.Api\only.Identity.App.Api\obj\Debug\netcoreapp2.1\only.Identity.App.Api.RazorTargetAssemblyInfo.cache
 G:\Web\only\only\only.Api\only.Identity.App.Api\bin\Debug\netcoreapp2.1\only.Identity.App.Api.pdb
-G:\Web\only\only\only.Api\only.Identity.App.Api\obj\Debug\netcoreapp2.1\only.Identity.App.Api.csprojAssemblyReference.cache
 G:\Web\only\only\only.Api\only.Identity.App.Api\obj\Debug\netcoreapp2.1\only.Identity.App.Api.dll
 G:\Web\only\only\only.Api\only.Identity.App.Api\obj\Debug\netcoreapp2.1\only.Identity.App.Api.pdb

@@ -60,7 +60,7 @@ using only.IdentityServer.App.Models;
             WriteLiteral("\n<div class=\"logout-page\">\n    <div class=\"page-header\">\n        <h1>Logout</h1>\n    </div>\n\n    <div class=\"row\">\n        <div class=\"col-sm-6\">\n            <p>Would you like to logout of IdentityServer?</p>\n            ");
             EndContext();
             BeginContext(244, 323, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cb15881280de424a8de85f5082800830", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d900de257cf647748eee9e1828588fed", async() => {
                 BeginContext(270, 53, true);
                 WriteLiteral("\n                <input type=\"hidden\" name=\"logoutId\"");
                 EndContext();
