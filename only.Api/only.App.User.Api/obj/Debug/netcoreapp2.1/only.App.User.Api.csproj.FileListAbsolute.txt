@@ -1,0 +1,14 @@
+G:\Web\only\only\only.Api\only.App.User.Api\bin\Debug\netcoreapp2.1\only.App.User.Api.deps.json
+G:\Web\only\only\only.Api\only.App.User.Api\bin\Debug\netcoreapp2.1\only.App.User.Api.runtimeconfig.json
+G:\Web\only\only\only.Api\only.App.User.Api\bin\Debug\netcoreapp2.1\only.App.User.Api.runtimeconfig.dev.json
+G:\Web\only\only\only.Api\only.App.User.Api\bin\Debug\netcoreapp2.1\only.App.User.Api.dll
+G:\Web\only\only\only.Api\only.App.User.Api\obj\Debug\netcoreapp2.1\only.App.User.Api.csproj.CoreCompileInputs.cache
+G:\Web\only\only\only.Api\only.App.User.Api\obj\Debug\netcoreapp2.1\only.App.User.Api.RazorAssemblyInfo.cache
+G:\Web\only\only\only.Api\only.App.User.Api\obj\Debug\netcoreapp2.1\only.App.User.Api.RazorAssemblyInfo.cs
+G:\Web\only\only\only.Api\only.App.User.Api\obj\Debug\netcoreapp2.1\only.App.User.Api.AssemblyInfoInputs.cache
+G:\Web\only\only\only.Api\only.App.User.Api\obj\Debug\netcoreapp2.1\only.App.User.Api.AssemblyInfo.cs
+G:\Web\only\only\only.Api\only.App.User.Api\obj\Debug\netcoreapp2.1\only.App.User.Api.RazorTargetAssemblyInfo.cache
+G:\Web\only\only\only.Api\only.App.User.Api\bin\Debug\netcoreapp2.1\only.App.User.Api.pdb
+G:\Web\only\only\only.Api\only.App.User.Api\obj\Debug\netcoreapp2.1\only.App.User.Api.csprojAssemblyReference.cache
+G:\Web\only\only\only.Api\only.App.User.Api\obj\Debug\netcoreapp2.1\only.App.User.Api.dll
+G:\Web\only\only\only.Api\only.App.User.Api\obj\Debug\netcoreapp2.1\only.App.User.Api.pdb

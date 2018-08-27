@@ -11,9 +11,9 @@ namespace only.PSW.Web.Area.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize]
-    //[CustomerAuthorize]
     public class HomeController:Controller
     {
+        [CustomerAuthorize]
         public async Task<IActionResult> Index()
         {
             return View();

@@ -8,7 +8,6 @@ G:\Web\only\only\only.Web\only.Identity.Web.Login\bin\Debug\netcoreapp2.1\only.I
 G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.csproj.CoreCompileInputs.cache
 G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.RazorAssemblyInfo.cache
 G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.RazorAssemblyInfo.cs
-G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.AssemblyInfoInputs.cache
 G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.AssemblyInfo.cs
 G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.TagHelpers.input.cache
@@ -32,3 +31,5 @@ G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.I
 G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.dll
 G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.pdb
 G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.csproj.CopyComplete
+G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\only.Identity.Web.Login.csprojAssemblyReference.cache
+G:\Web\only\only\only.Web\only.Identity.Web.Login\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

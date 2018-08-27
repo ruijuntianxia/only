@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  only.identity.web.login:
+    image: ${DOCKER_REGISTRY}onlyidentityweblogin
+    build:
+      context: .
+      dockerfile: only.Web/only.Identity.Web.Login/Dockerfile

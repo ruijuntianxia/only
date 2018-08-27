@@ -35,3 +35,4 @@ G:\Web\only\only\only.IdentityServer\only.IdentityServer.App\obj\Debug\netcoreap
 G:\Web\only\only\only.IdentityServer\only.IdentityServer.App\obj\Debug\netcoreapp2.1\Razor\Views\Grants\Index.g.cshtml.cs
 G:\Web\only\only\only.IdentityServer\only.IdentityServer.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 G:\Web\only\only\only.IdentityServer\only.IdentityServer.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+G:\Web\only\only\only.IdentityServer\only.IdentityServer.App\obj\Debug\netcoreapp2.1\only.IdentityServer.App.csprojAssemblyReference.cache

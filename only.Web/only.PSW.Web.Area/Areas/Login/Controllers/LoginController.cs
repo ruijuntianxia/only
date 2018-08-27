@@ -62,9 +62,6 @@ namespace only.PSW.Web.Area.Areas.Login.Controllers
                     new Claim("UserName",loginUser.userName),
                     new Claim("Api","App.Api")
                 };
-
-
-
                 var claimsIdentity = new ClaimsIdentity(
                     claims, CustomerAuthorizeAttribute.CustomerAuthenticationScheme);
                 await HttpContext.SignInAsync(CustomerAuthorizeAttribute.CustomerAuthenticationScheme,new ClaimsPrincipal(claimsIdentity));
@@ -78,8 +75,10 @@ namespace only.PSW.Web.Area.Areas.Login.Controllers
 
         }
 
+       
 
-        
+
+
 
         public async Task<IActionResult> CallApiUsingClientCredentials()
         {

@@ -8,7 +8,7 @@ namespace only.PSW.Web.Area.Areas.Login.Models
 {
     public class LoginUser
     {
-        [DataType(DataType.EmailAddress)]
+       
         [Display(Name ="用户名")]
         public string userName { get; set; }
 

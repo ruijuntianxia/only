@@ -34,7 +34,6 @@ namespace only.Identity.App.Api
                 {
                     options.Authority = "http://localhost:5000";
                     options.RequireHttpsMetadata = false;
-
                     options.ApiName = "App.Api";
                 });
            // services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
